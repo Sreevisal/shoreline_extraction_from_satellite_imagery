@@ -1,4 +1,4 @@
-#shoreline_extraction_from_satellite_imagery
+**shoreline_extraction_from_satellite_imagery**
 
 This python code will help you to automatically extract shoreline from satelite imageries especially planet imagery.
 This code is developed as part of work tittled "Assessing Coastal Dynamics of Ashtamudi Wetland 
