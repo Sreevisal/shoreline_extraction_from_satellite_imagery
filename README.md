@@ -1,10 +1,30 @@
-![image](https://github.com/user-attachments/assets/4f9e385f-1a2b-42d0-baf0-079d8b7134c9)**shoreline_extraction_from_satellite_imagery**
+# **Shoreline Extraction from Satellite Imagery**  
 
-This python code will help you to automatically extract shoreline from satellite imageries especially planet imagery.
-This code is developed as part of work titled "Assessing Coastal Dynamics of Ashtamudi Wetland 
-using PlanetScope Imageries" which is presented at Ingarss 2024 at Goa.
+This Python code is designed to **automatically extract shorelines** from satellite imagery, particularly **PlanetScope imagery**.  
 
-For downloading planet image refer this video - https://www.youtube.com/watch?v=XsrclGthh34, which is using QGIS.
-We selected PlanetScope Analytic Radiance Scene for analysis which gave clear distinction between land and water.
+## **Overview**  
+The code is part of the study titled:  
+**"Assessing Coastal Dynamics of Ashtamudi Wetland Using PlanetScope Imageries,"**  
+which was presented at **INGARSS 2024, Goa**.  
 
-After using the algorithm, there will be double edge problem, which we need to apply a buffer of 3 meter (image resolution) and apply  Polygon to centerline tool.
+## **Requirements**  
+Ensure the following before starting:  
+- **PlanetScope Analytic Radiance Scene** is selected for analysis.  
+- Clear land-water distinction in the imagery is necessary.  
+
+For downloading Planet imagery, refer to this helpful [video tutorial](https://www.youtube.com/watch?v=XsrclGthh34), which demonstrates the process using **QGIS**.  
+
+## **Post-Processing Instructions**  
+After running the algorithm, you may encounter a **double edge problem**. To resolve this:  
+1. Apply a buffer of **3 meters** (matching the image resolution).  
+2. Use the **Polygon to Centerline** tool to finalize the shoreline extraction.  
+
+## **Example Workflow**  
+
+1. Download PlanetScope imagery.  
+2. Preprocess imagery (ensure clear land-water boundaries).  
+3. Run this Python code to extract the shoreline.  
+4. Post-process the output using the steps above.  
+
+## **Contributions**  
+Feel free to raise issues or contribute to the repository!  
